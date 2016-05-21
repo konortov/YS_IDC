@@ -15,15 +15,13 @@ public class tester {
 		System.out.println("");
 		System.out.println("");
 		System.out.println("");
-		MergeSort intsort = new MergeSort();
+		RandSelect intsort = new RandSelect();
 		
 		
-		intsort.sort(randfact);
+		double rank = intsort.select(randfact, 2);
 		
 		
-		for (int i = 0; i < randfact.length; i++) {
-			System.out.println(randfact[i]);
-		}
+		System.out.println(rank);
 		
 
 	}
