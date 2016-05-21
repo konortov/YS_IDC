@@ -15,13 +15,15 @@ public class tester {
 		System.out.println("");
 		System.out.println("");
 		System.out.println("");
-		RandSelect intsort = new RandSelect();
+		RadixSort intsort = new RadixSort();
 		
 		
-		double rank = intsort.select(randfact, 2);
+		intsort.sort(randfact);
 		
 		
-		System.out.println(rank);
+		for (int i = 0; i < randfact.length; i++) {
+			System.out.println(randfact[i]);
+		}
 		
 
 	}
