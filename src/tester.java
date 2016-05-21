@@ -15,7 +15,7 @@ public class tester {
 		System.out.println("");
 		System.out.println("");
 		System.out.println("");
-		InsertionSort intsort = new InsertionSort();
+		MergeSort intsort = new MergeSort();
 		
 		
 		intsort.sort(randfact);
