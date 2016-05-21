@@ -10,6 +10,21 @@ public class tester {
 			System.out.println(randfact[i]);
 			
 		}
+		
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		InsertionSort intsort = new InsertionSort();
+		
+		
+		intsort.sort(randfact);
+		
+		
+		for (int i = 0; i < randfact.length; i++) {
+			System.out.println(randfact[i]);
+		}
+		
 
 	}
 
