@@ -15,13 +15,16 @@ public class tester {
 		System.out.println("");
 		System.out.println("");
 		System.out.println("");
-		RandSelect intsort = new RandSelect();
+		QuickSort intsort = new QuickSort();
 		
 		
-		double selected = intsort.select(randfact, 2);
+		intsort.sort(randfact);
 		
 		
-	System.out.println(selected);
+		for (int i = 0; i < 6; i++) {
+			System.out.println(randfact[i]);
+			
+		}
 		
 
 	}
